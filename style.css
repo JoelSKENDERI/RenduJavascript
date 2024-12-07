@@ -1,0 +1,95 @@
+#plats-container, #services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    font-family: nunito ;
+}
+
+.card {
+    border: 1px solid #000000;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: seagreen;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card .content {
+    padding: 16px;
+    text-align: center;
+    color: yellow;
+}
+
+.card .content h2 {
+    font-size: 1.5em;
+    margin: 8px 0;
+    color:yellow;
+}
+
+.card .content p {
+    color: yellow;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+body{
+    background: rgb(225,230,23);
+    background: radial-gradient(circle, rgba(225,230,23,1) 0%, rgba(114,219,25,1) 100%);
+    padding-top: 200px;
+}
+.sociallinks{
+    display: flex;
+}
+.fa-square-twitter{
+    font-size: 60px;
+    color: darkblue;
+    text-decoration: none;
+}
+.fa-instagram{
+    font-size: 60px;
+    color: darkblue;
+    text-decoration: none;
+}
+header{
+
+}
+#plats-container{
+
+}
+#halo{
+
+}
+.navbar{
+    position: fixed;
+       top: 0;
+       z-index: 1030;
+    width: 100%;
+    padding-left: 16px;
+        background-image: url(brazilian-cuisine.jpg); 
+        filter: brightness(90%);
+    background-repeat: no-repeat;
+    
+}
+h1{
+    font-family: outfit, sans-serif;
+    margin: 10px;
+    color: darkblue;
+    
+}
+p{
+    font-family: outfit, sans-serif;
+    margin:none;
+    color: darkblue;
+}
+.titres{
+    padding-left: 16px;
+}
